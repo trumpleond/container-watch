@@ -1,0 +1,16 @@
+# Local credentials, environment overrides, and TLS keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated binaries and local release archives
+/dist/
+*.zip
+*.tar
+*.tar.gz
+
+# Go build/test artifacts
+*.test
+*.out
